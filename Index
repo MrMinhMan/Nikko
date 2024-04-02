@@ -1,0 +1,230 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikko Restaurant</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+</head>
+<body>
+    <div class="navigation fix-nav">
+        <!--logo-->
+        <a href="index.html" class="logo">
+            <img src="./images/favicon.png" alt="">
+        </a>
+        <!--menubar-->
+        <ul class="menu">
+            <li>
+                <a href="index.html">TRANG CHỦ</a>
+            </li>
+            <li class="navbar-item">
+                <a href="MENU.html" class="navbar-link">MENU</a>
+                <!--sale lable-->
+                <span class="sale-label">
+                    Sale
+                </span>
+                <span class="down"></span>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="#">Món mới</a>
+                    </li>
+                    <li>
+                        <a href="#">Best Seller</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="dichvu.html">DỊCH VỤ</a>
+            </li>
+            <li>
+                <a href="about.html">VỀ CHÚNG TÔI</a>
+            </li>
+            <!-- search -->
+            <div>
+                <form action="http://localhost:5501/MENU.html" id="search-box">
+                    <button id="search-btn"><i class='fas fa-search'></i></button>
+                    <input type="text" id="search-text"
+                    placeholder="Bạn muốn tìm gì?" required>
+                </form>
+            </div>
+        </ul>
+        <!--dangnhap,gio hang-->
+        <div class="right-menu">
+            <a href="login.html" class="user">
+                <i class="fas fa-user"></i>
+            </a>
+            <!--cart-icon icon gio hang-->
+            <a href="cart.html">
+                <i class="fas fa-shopping-cart" id="clickcart">
+                </i>
+            </a>
+        </div>
+    </div>
+
+    <!---------------------------slider------------------------->
+    <div class="slider">
+        <div class="slide-show">
+            <a href="#" class="slide-link">
+                <img src="./images/slides/slide1.jpeg" alt="">
+            </a>
+            <a href="#" class="slide-link">
+                <img src="./images/slides/slide2.jpeg" alt="">
+            </a>
+            <a href="#" class="slide-link">
+                <img src="./images/slides/slide3.jpeg" alt="">
+            </a>
+            <a href="#" class="slide-link">
+                <img src="./images/slides/slide4.jpeg" alt="">
+            </a>
+        </div>
+    </div>
+
+
+    <!-----------------------------BIg intro về nhà hàng (arrival)--------------------->
+    <!--heading-->
+    <div class="arrival-heading">
+        <strong>NHÀ HÀNG ĐẲNG CẤP 5 SAO TẠI THÀNH PHỐ HỒ CHÍ MINH</strong>    <!--Chuỗi dịch vụ oách xa lách-->
+        <p>Đại diện cho sự thanh lịch và lòng hiếu khách tinh tế của người Nhật, Khách Sạn Nikko Saigon là không gian nghỉ ngơi rộng rãi và sang trọng dành cho khách du lịch và doanh nhân, dịch vụ ẩm thực tinh tế sẽ làm hài lòng ngay cả những thực khách sành điệu khó tính nhất. Với đội ngũ nhân viên nhiệt tình luôn cung cấp các dịch vụ tốt nhất để đảm bảo sự hài lòng cho khách trong mỗi lần lưu trú.</p>
+        <div class="arrival-con">
+            <p><img alt="" src="./images/checked.png" style="width: 9px; height: 9px;" />&nbsp;Không gian yên bình giữa trung tâm thành phố</p>
+            <p><img alt="" src="./images/checked.png" style="width: 9px; height: 9px;" />&nbsp;Buffet tối hải sản được ưa chuộng</p>
+            <p><img alt="" src="./images/checked.png" style="width: 9px; height: 9px;" />&nbsp;Buffet sáng phong phú</p>
+            <p><img alt="" src="./images/checked.png" style="width: 9px; height: 9px;" />&nbsp;Sân vườn rộng rãi dành cho tiệc cưới và sự kiện đặc biệt</p>
+        </div>
+        <div class="btn-xemthem">
+            <p><a href="about.html">&nbsp;XEM THÊM</a></p>
+            <hr/>
+        </div>
+    </div>
+
+<!------------------------------------ Nikko service ------------------------>
+
+    <div>
+		<h3>NIKKO SERVICE</h3>
+	</div>
+    <div class="khung-discover">
+        <div class="discover-img-mobile" style="background-image: url(./images/main.jpeg); ">
+            </div>
+        <div class="home-meeting-event">
+            <div class="home-content-meeting">
+                <a class="subtitle" href="dichvu.html">KHÁM PHÁ DỊCH VỤ CAO CẤP NIKKO'S APARTMENT</a>
+                <div class="content-meeting">
+                    <div>Phòng khách của chúng tôi là một trong những chỗ ở rộng rãi nhất trong thành phố. Nội thất phòng theo chủ đề tông màu đất với thiết kế tối giản là nét đặc trưng của người Nhật mang đến sự sang trọng và trải nghiệm lưu trú thực sự thư giãn. Khách sạn Nikko Saigon là địa điểm hàng đầu cho các cuộc họp tại Thành phố Hồ Chí Minh.
+                        <br> Từ việc điều chỉnh bố cục đến các thiết kế sáng tạo, không gian hội họp tùy chỉnh, đền đội ngũ quản lý sự kiện chuyên nghiệp, Nikko Saigon cam kết sẽ góp phần thành công cho bất kỳ sự kiện nào.
+                    </div>
+                    <div style="margin-top: 7px;">&nbsp;- Resorts, Nikko Hotels International or Hotel JAL City -</div>
+                    <p></p>
+                    <a style="color: #A18342;" href="about.html">Xem thêm</a>
+                </div>
+                <a href="dichvu.html"><button type="button" class="btn-book-phong">Book phòng ngay</button></a>
+            </div>
+            <div class="discover-img" style="background-image: url(./images/main.jpeg); ">
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------boxzoom----------------------->
+    <section class="sale">
+        <div class="sale-box">
+            <img src="./images/box1.jpeg" alt="">
+            <a href="#"></a>
+        </div>
+        <div class="sale-box">
+            <img src="./images/box2.jpeg" alt="">
+            <a href="#"></a>
+        </div>
+        <div class="sale-box">
+            <img src="./images/box3.jpeg" alt="">
+            <a href="#"></a>
+        </div>
+    </section>
+
+<!-------------------------- deal-------- -->
+    <section class="deal">
+        <div class="count-sp">
+            <img src='./images/buffet.jpeg' alt=""/>
+        </div>
+        <div class="count-time">
+            <p>DEAL OF THE WEAK</p>
+            <h2>SEAFOOD BUFFET ON SALE</h2>
+            <h1 align="center">300.000đ</h1>
+            <span>*Tận hưởng bữa buffet thịnh soạn chỉ với 300.000đ trong trong hôm nay tại Nikko Restaurant</span>
+        </div>
+    </section>
+
+
+    <!--services------------------------->
+    <section class="services">
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Dịch vụ đưa đón</span>
+            <p>Xe đưa đón tận nơi nhanh chóng và an toàn</p>
+        </div>
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Hỗ trợ 24/7</span>
+            <p>Hỗ trợ 24/7 cho mọi vấn đề của khách hàng</p>
+        </div>
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% hoàn tiền</span>
+            <p>Hoàn tiền nếu có bất cứ lỗi nào từ Nikko</p>
+        </div>
+    </section>
+
+
+
+
+<!-- -----------------------------------footer -->
+    <footer>
+        <table cellspacing="30">
+        <!--Hang tieu de dau tien-->
+            <tr>
+                <div class="logo">
+                    <td align="center"><img src="./images/iconft1.png" style="width: 50px;"></td>
+                    <td align="center"><img src="./images/iconft2.png" style="width:50px"></td>
+                    <td align="center"><img src="./images/iconft3.png" style="width: 50px"></td>
+                    <th align="center"> ĐĂNG KÝ NHẬN THÊM THÔNG TIN</th>
+                </div>
+            </tr>
+            <tr>
+                <td align="center">235 Nguyen Van Cu, District 1, Ho Chi Minh City
+                </td>
+                <td align="center">
+                    Tel: (+84.28)39257777
+                   <br>
+                    Fax: (+84.28)39257766
+                    <br>
+                    Ins: minhh.man
+                </td>
+                <td align="center">
+                    &nbsp; &nbsp;- 25 minutes drive from Tan Son Nhat International Airport
+                    <br>
+                    &nbsp; &nbsp;- 15 minutes drive from the city centre
+                    <br>
+                    &nbsp; &nbsp;- A gateway to the many popular attractions
+                    <br>
+                    &nbsp; &nbsp;- Connected to Now Zone Fashion Mall
+                </td>
+                <th>
+                    <div class="subscribe">
+                        <form>
+                            <input type="email" placeholder="example@gmail.com" required />
+                            <input type="submit" value="Đăng kí">
+                        </form>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+<script src="https://kit.fontawesome.com/996e98cae5.js" crossorigin="anonymous"></script>
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/script.js"></script>
+</html>
